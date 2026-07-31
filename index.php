@@ -6,9 +6,9 @@
   <title>Mutlucan Tarım İşletmeleri | Premium Elma Üretimi</title>
   <meta name="description" content="Mutlucan Tarım İşletmeleri; 30 yıllık deneyim, kontrollü üretim, premium elma tedariki ve Türkiye geneli lojistik çözümleri sunar.">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="bootstrap.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=4">
+  <link rel="stylesheet" href="style.css?v=4">
   <style>
     body{margin:0;color:#2b2b2b;font-family:Arial,Helvetica,sans-serif;line-height:1.7}.navbar{min-height:92px;box-shadow:0 10px 30px rgba(0,0,0,.08)}.brand-logo{width:258px;height:68px;object-fit:contain}.hero-section{min-height:92vh;color:#fff;background:url("https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=1900&q=90") center/cover no-repeat;position:relative}.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(55,8,8,.9),rgba(183,28,28,.62),rgba(21,21,21,.28))}.hero-row{min-height:92vh}.hero-section h1{font-size:clamp(2.8rem,7vw,5.6rem);font-weight:900;line-height:1.04}.section-padding{padding:96px 0}.bg-soft{background:#f8f9fa}.section-heading{text-align:center;max-width:760px;margin:0 auto 3rem}.section-kicker{color:#b71c1c;font-weight:900;text-transform:uppercase}.product-card,.news-card,.contact-form,.team-card,.certificate-card,.testimonial-card{background:#fff;border:1px solid rgba(183,28,28,.08);border-radius:8px;box-shadow:0 10px 24px rgba(20,20,20,.06);overflow:hidden}.product-card img,.news-card img,.gallery-item img{display:block;width:100%;height:245px;object-fit:cover}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.btn-primary-red,.btn-light-red:hover{background:#b71c1c;border-color:#b71c1c;color:#fff}.btn-light-red{background:#fff;border-color:#fff;color:#b71c1c}.premium-band,.stats-section{background:linear-gradient(135deg,#b71c1c,#e53935);color:#fff}.footer{background:#16251b;color:#fff;padding:70px 0 24px}.footer a{display:block;color:#fff;text-decoration:none;margin:.35rem 0}@media(max-width:991.98px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:767.98px){.gallery-grid{grid-template-columns:1fr}.product-card img,.news-card img,.gallery-item img{height:220px}.brand-logo{width:220px}}
   </style>
@@ -520,8 +520,8 @@
     <i class="bi bi-arrow-up"></i>
   </button>
 
-  <script src="js/bootstrap.js"></script>
-  <script src="js/script.js"></script>
+  <script src="bootstrap.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
 
