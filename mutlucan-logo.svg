@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 190" role="img" aria-labelledby="title desc">
+  <title id="title">Mutlucan Tarım İşletmeleri Logo</title>
+  <desc id="desc">Kırmızı elma sembolü ve Mutlucan Tarım İşletmeleri yazısından oluşan modern logo</desc>
+  <defs>
+    <linearGradient id="appleGradient" x1="48" y1="32" x2="124" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff5a4f"/>
+      <stop offset=".48" stop-color="#d72626"/>
+      <stop offset="1" stop-color="#9f1616"/>
+    </linearGradient>
+    <linearGradient id="leafGradient" x1="93" y1="23" x2="143" y2="66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86d36e"/>
+      <stop offset="1" stop-color="#2e7d32"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#5c0808" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <g filter="url(#softShadow)">
+    <circle cx="96" cy="96" r="76" fill="#fff" stroke="#b71c1c" stroke-width="5"/>
+    <path d="M99 62c13-15 34-14 47 0 22 22 19 68-6 95-14 16-29 20-42 11-13 9-29 5-43-11-24-27-28-73-6-95 14-14 36-15 50 0z" fill="url(#appleGradient)"/>
+    <path d="M103 59c-1-16 5-29 17-40" fill="none" stroke="#70401f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M108 53c14-25 38-35 68-27-6 28-25 46-59 47-7 0-11-7-9-20z" fill="url(#leafGradient)"/>
+    <path d="M68 76c10-10 25-11 36-2" fill="none" stroke="#ffc4bf" stroke-width="8" stroke-linecap="round" opacity=".82"/>
+  </g>
+  <text x="205" y="82" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="900" fill="#b71c1c">Mutlucan</text>
+  <text x="208" y="130" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="800" fill="#2b2b2b">Tarım İşletmeleri</text>
+  <path d="M208 151h342" fill="none" stroke="#4caf50" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,284 @@
+:root {
+  --admin-red: #b91c1c;
+  --admin-red-dark: #7f1d1d;
+  --admin-green: #15803d;
+  --admin-ink: #17211b;
+  --admin-muted: #66736b;
+  --admin-line: #e4e7e4;
+  --admin-bg: #f5f7f4;
+  --admin-card: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.admin-body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--admin-bg);
+  color: var(--admin-ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: linear-gradient(135deg, #fff 0%, #f5f7f4 46%, #eef6ef 100%);
+}
+
+.login-card {
+  width: min(100%, 430px);
+  padding: 32px;
+  border: 1px solid var(--admin-line);
+  border-radius: 8px;
+  background: var(--admin-card);
+  box-shadow: 0 24px 70px rgba(23, 33, 27, 0.12);
+}
+
+.brand-logo {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 22px;
+}
+
+.sidebar {
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+  background: #16251b;
+  color: #fff;
+}
+
+.sidebar .brand-logo {
+  width: 190px;
+  margin: 0 0 20px;
+}
+
+.sidebar nav a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.82);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.sidebar nav a:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+
+.content {
+  padding: 28px;
+  min-width: 0;
+}
+
+.topbar {
+  padding: 20px;
+  border: 1px solid var(--admin-line);
+  border-radius: 8px;
+  background: var(--admin-card);
+  box-shadow: 0 12px 36px rgba(23, 33, 27, 0.06);
+}
+
+.panel-card {
+  padding: 22px;
+  margin-bottom: 24px;
+  border: 1px solid var(--admin-line);
+  border-radius: 8px;
+  background: var(--admin-card);
+  box-shadow: 0 12px 36px rgba(23, 33, 27, 0.06);
+}
+
+#teklifler.panel-card {
+  overflow: hidden;
+}
+
+.stat-card {
+  min-height: 148px;
+  display: grid;
+  gap: 8px;
+  align-content: center;
+}
+
+.stat-card i {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: #fef2f2;
+  color: var(--admin-red);
+  font-size: 22px;
+}
+
+.stat-card strong {
+  font-size: 34px;
+  line-height: 1;
+}
+
+.stat-card span,
+.text-muted,
+small {
+  color: var(--admin-muted) !important;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.section-title h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.btn-red {
+  border: 0;
+  background: var(--admin-red);
+  color: #fff;
+  font-weight: 800;
+}
+
+.btn-red:hover,
+.btn-red:focus {
+  background: var(--admin-red-dark);
+  color: #fff;
+}
+
+.badge-status {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #fef2f2;
+  color: var(--admin-red-dark);
+  font-size: 12px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.table {
+  margin-bottom: 0;
+  min-width: 980px;
+}
+
+.table thead th {
+  border-bottom: 1px solid var(--admin-line);
+  color: var(--admin-muted);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  padding: 14px 12px;
+}
+
+.table img {
+  display: block;
+  width: 96px;
+  height: 68px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #f3f4f3;
+}
+
+#galeri img {
+  display: block;
+  width: 100% !important;
+  height: 150px !important;
+  object-fit: cover;
+}
+
+.table-responsive {
+  border-radius: 8px;
+}
+
+.admin-body .btn {
+  border-radius: 8px;
+  font-weight: 800;
+}
+
+.admin-body a {
+  word-break: break-word;
+}
+
+.admin-body textarea,
+.admin-body input,
+.admin-body select {
+  max-width: 100%;
+}
+
+.form-control,
+.form-select {
+  border-color: var(--admin-line);
+  border-radius: 8px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--admin-red);
+  box-shadow: 0 0 0 0.2rem rgba(185, 28, 28, 0.14);
+}
+
+textarea {
+  resize: vertical;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    min-height: auto;
+    position: static;
+  }
+
+  .content {
+    padding: 18px;
+  }
+
+  .sidebar nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .topbar,
+  .section-title {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .table {
+    min-width: 900px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .login-card {
+    padding: 22px;
+  }
+
+  .sidebar nav {
+    grid-template-columns: 1fr;
+  }
+
+  .content {
+    padding: 14px;
+  }
+
+  .panel-card {
+    padding: 16px;
+  }
+}
