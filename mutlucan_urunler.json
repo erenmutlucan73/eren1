@@ -1,0 +1,32 @@
+﻿[
+    {
+        "id":  1,
+        "ad":  "Kırmızı Elma",
+        "kategori":  "Sofralık",
+        "stok":  45,
+        "tonaj":  80,
+        "durum":  "Aktif",
+        "gorsel":  "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?auto=format\u0026fit=crop\u0026w=900\u0026q=88",
+        "aciklama":  "Parlak kabuklu, dengeli tat profiline sahip premium kırmızı elma."
+    },
+    {
+        "id":  2,
+        "ad":  "Yeşil Elma",
+        "kategori":  "Sofralık",
+        "stok":  30,
+        "tonaj":  45,
+        "durum":  "Aktif",
+        "gorsel":  "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format\u0026fit=crop\u0026w=900\u0026q=88",
+        "aciklama":  "Çıtır dokulu, ferah aromalı yeşil elma seçkisi."
+    },
+    {
+        "id":  3,
+        "ad":  "Golden Elma",
+        "kategori":  "Premium",
+        "stok":  25,
+        "tonaj":  50,
+        "durum":  "Aktif",
+        "gorsel":  "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format\u0026fit=crop\u0026w=900\u0026q=88",
+        "aciklama":  "Kurumsal tedarik için homojen görünüm ve dengeli tat."
+    }
+]

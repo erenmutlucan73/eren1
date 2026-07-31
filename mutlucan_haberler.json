@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "baslik": "2026 Sezon Planı Hazırlandı",
+        "kategori": "Hasat",
+        "durum": "Yayında",
+        "tarih": "30.07.2026",
+        "ozet": "Kırmızı, Golden ve yeşil elma grupları için teslimat takvimi oluşturuldu."
+    },
+    {
+        "id": 2,
+        "baslik": "Paketleme Standardı Yenilendi",
+        "kategori": "Lojistik",
+        "durum": "Yayında",
+        "tarih": "30.07.2026",
+        "ozet": "Kurumsal alımlar için kasa ve palet hazırlığı daha verimli hale getirildi."
+    }
+]

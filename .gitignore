@@ -1,0 +1,31 @@
+# Local/system files
+desktop.ini
+*.zip
+
+# Local app data and credentials
+*_ayar.json
+mutlucan_admin_ayar.json
+mutlucan_teklifler.json
+mutlucan_urunler.json
+mutlucan_haberler.json
+mutlucan_galeri.json
+mutlucan_site_ayarlari.json
+ziyaretciler.json
+ziyaretci.txt
+siparisler.json
+kullanicilar.json
+kullanici_adresleri.json
+kullanici_sepetleri.json
+destek_mesajlari.json
+iletisim_mesajlari.json
+indirim_kodlari.json
+yorumlar.json
+
+# Old/local unrelated projects
+serverapp/
+bootstrap5/
+Yeni klasör/
+
+# Editor/temp
+*.tmp
+*.log
